@@ -6,6 +6,8 @@
 	
 	myApp.controller('SpicyController', ['$scope', function($scope) {
 		
+		$scope.cityList =  username.cityList;
+		
 		console.log(username.cityList[1].cityName);
 		
 	    $scope.spice = 'very';
